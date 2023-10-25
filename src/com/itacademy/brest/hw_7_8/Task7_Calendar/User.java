@@ -6,7 +6,12 @@ public class User {
 
     private String name;
 
-    private CalendarEvent [] calendarEvents;
+    private CalendarEvent[] calendarEvents;
+
+    public User(String name, CalendarEvent[] calendarEvents) {
+        this.name = name;
+        this.calendarEvents = calendarEvents;
+    }
 
     public User(String name) {
         this.name = name;
@@ -28,27 +33,33 @@ public class User {
         this.calendarEvents = calendarEvents;
     }
 
-    public void addCalendarEvent(CalendarEvent calendarEvent){
-        for (int i = 0; i < calendarEvents.length; i++){
-            if (Objects.isNull(calendarEvents[i])){
+    public void addCalendarEvent(CalendarEvent calendarEvent) {
+        for (int i = 0; i < calendarEvents.length; i++) {
+            if (Objects.isNull(calendarEvents[i])) {
                 calendarEvents[i] = calendarEvent;
                 calendarEvent.addId();
+                calendarEvent.setUser(this);
                 System.out.println(calendarEvent.getDescription() + " successfully added");
                 return;
             }
         }
     }
 
-    public void listCalendarEvents(){
-        for (CalendarEvent calendarEvent : calendarEvents){
-            if (Objects.nonNull(calendarEvent)){
-                System.out.println(calendarEvent.getDescription());
+    public void listActiveCalendarEvents() {
+        for (CalendarEvent calendarEvent : calendarEvents) {
+            if (Objects.nonNull(calendarEvent)) {
+                calendarEvent.getDetails();
             }
         }
     }
 
+    public void deleteCalendarEvent(CalendarEvent calendarEvent) {
+        for (int i = 0; i < calendarEvents.length; i++) {
+            if (Objects.nonNull(calendarEvents[i]) && calendarEvents[i].getId() == calendarEvent.getId()) {
+                calendarEvents[i] = null;
+                System.out.println(calendarEvent.getDescription() + " successfully deleted");
+                return;
+            }
+        }
+    }
 }
-
-
-
-//    User (Пользователь) - класс, представляющий пользователя, создающего события в календаре.
