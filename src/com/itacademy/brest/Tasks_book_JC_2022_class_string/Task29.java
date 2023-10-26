@@ -9,16 +9,15 @@ public class Task29 {
 
         Scanner scanner = new Scanner(System.in);
 
-//        System.out.println("Enter text: ");
-//        String text = scanner.nextLine();
+        System.out.println("Enter text: ");
+        String text = scanner.nextLine();
 
-        String text = "Brest is the best city in the world";
-
-        Pattern pattern = Pattern.compile(" +[a-zA-Z]");
+        Pattern pattern = Pattern.compile("[a-zA-Z][^a-zA-Z]|[a-zA-Z]$");
         Matcher matcher = pattern.matcher(text);
 
-
-
+        while (matcher.find()) {
+            System.out.print(text.charAt(matcher.start()));
+        }
     }
 }
 
