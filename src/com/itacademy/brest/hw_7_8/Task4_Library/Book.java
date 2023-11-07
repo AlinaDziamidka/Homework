@@ -4,6 +4,7 @@ public class Book {
 
     private String title;
     private String author;
+    //Why string?
     private String year;
     private String description;
 
