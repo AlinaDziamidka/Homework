@@ -5,7 +5,8 @@ import java.util.Objects;
 public class User {
 
     private String name;
-
+    //usually we have unidirectional relationships. CalendarEvent contains user. Calendar contains CalendarEvent[] calendarEvents;
+    //the calendar is responsible for managing events.
     private CalendarEvent[] calendarEvents;
 
     public User(String name, CalendarEvent[] calendarEvents) {
@@ -33,6 +34,7 @@ public class User {
         this.calendarEvents = calendarEvents;
     }
 
+    //the calendar is responsible for managing events. addUserToCalendarEvent(CalendarEvent calendarEvent, User user)
     public void addCalendarEvent(CalendarEvent calendarEvent) {
         for (int i = 0; i < calendarEvents.length; i++) {
             if (Objects.isNull(calendarEvents[i])) {
@@ -45,6 +47,7 @@ public class User {
         }
     }
 
+    //the calendar is responsible for managing events. listActiveCalendarEvents(User user)
     public void listActiveCalendarEvents() {
         for (CalendarEvent calendarEvent : calendarEvents) {
             if (Objects.nonNull(calendarEvent)) {
@@ -53,6 +56,8 @@ public class User {
         }
     }
 
+    //we must also have id for the user
+    //the calendar is responsible for managing events. deleteCalendarEvent(CalendarEvent calendarEvent, User user)
     public void deleteCalendarEvent(CalendarEvent calendarEvent) {
         for (int i = 0; i < calendarEvents.length; i++) {
             if (Objects.nonNull(calendarEvents[i]) && calendarEvents[i].getId() == calendarEvent.getId()) {

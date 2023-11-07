@@ -19,6 +19,7 @@ public class Library {
     }
 
     public void addBook(Book book) {
+        //if the length of the array is less than the number of added books?
         LibraryBook libraryBook = new LibraryBook(book);
         for (int i = 0; i < books.length; i++) {
             if (Objects.isNull(books[i])) {
@@ -30,6 +31,7 @@ public class Library {
     }
 
     public void checkOut(Book book) {
+        //we need to handle the case when there is no book in the library
         for (int i = 0; i < books.length; i++) {
             LibraryBook libraryBook = books[i];
             if (Objects.nonNull(libraryBook) && libraryBook.getBook().equals(book) && libraryBook.isAvailable()) {
@@ -50,6 +52,8 @@ public class Library {
     }
 
     public void deleteBook(Book book) {
+        //we need to handle the case when there is no book in the library,
+        // some validation method which is used for all methods with the same logic (add, remove, check)
         for (int i = 0; i < books.length; i++) {
             if (Objects.nonNull(books[i]) && books[i].getBook().equals(book)) {
                 books[i] = null;

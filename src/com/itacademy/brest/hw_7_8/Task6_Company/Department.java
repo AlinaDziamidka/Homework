@@ -30,6 +30,7 @@ public class Department {
     }
 
     public void addEmployee(Employee employee) {
+
         for (int i = 0; i < employees.length; i++) {
             if (Objects.isNull(employees[i])) {
                 employees[i] = employee;

@@ -7,6 +7,7 @@ public class Student {
     private String name;
     private int yearOfBirthday;
 
+    //usually we have unidirectional relationships. Course contains students
     private String[] courses = new String[5];
 
     public String getName() {
@@ -38,6 +39,7 @@ public class Student {
         this.yearOfBirthday = yearOfBirthday;
     }
 
+    //we should not use enrollInCourse method in Student since only the college is responsible for managing students and courses.
     public void enrollInCourse(Course course) {
         for (int i = 0; i < courses.length; i++) {
             if (Objects.isNull(courses[i])) {
@@ -48,6 +50,7 @@ public class Student {
         }
     }
 
+    //the college is responsible for managing students and courses.
     public void listEnrolledCourses() {
         for (String course : courses) {
             if (Objects.nonNull(course)) {
