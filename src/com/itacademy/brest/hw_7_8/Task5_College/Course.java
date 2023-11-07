@@ -40,6 +40,7 @@ public class Course {
 
     public boolean addStudent(Student student) {
         //if the length of the array is less than the number of added students?
+        //if student is present on the current course?
         for (int i = 0; i < students.length; i++) {
             if (Objects.isNull(students[i]) && (courseYear - student.getYearOfBirthday()) >= 16) {
                 students[i] = student;
