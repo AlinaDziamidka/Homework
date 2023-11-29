@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d32364b4-85f7-4498-a796-c2c32e9f565f" name="Changes" comment="Commit_HW17">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_11_2023_20_14_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_11_2023_20_14__Changes_.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Homework10_12" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c23f641c-5c16-42ba-98d2-573070afa8aa" />
+        <option name="url" value="https://github.com/AlinaDziamidka/Homework.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2XAp5SME4F4HKJLEg2c8xWmdEuM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "HW17",
+    "last_opened_file_path": "C:/Users/Panda/Desktop/test/Homework",
+    "onboarding.tips.debug.path": "C:/Users/Panda/IdeaProjects/Homework/src/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itacademy.brest.Test.class20" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Panda\IdeaProjects\Homework\src\com\itacademy\brest\Tasks_book_JC_2022_class_string" />
+      <recent name="C:\Users\Panda\IdeaProjects\Homework\src\com\itacademy\brest\Tasks_book_JC_2022_classes\ATM\review" />
+      <recent name="C:\Users\Panda\IdeaProjects\Homework\src\com\itacademy\brest\Tasks_book_JC_2022_classes" />
+      <recent name="C:\Users\Panda\IdeaProjects\Homework\src\com\itacademy\brest\Tasks_book_JC_2022_arrays" />
+      <recent name="C:\Users\Panda\IdeaProjects\Homework\src\com\itacademy\brest\Tasks_book_JC_2022_cycles" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Panda\Desktop\test\Homework\src\com\itacademy\brest\hw_10_12\task4_map" />
+      <recent name="C:\Users\Panda\Desktop\test\Homework\src\com\itacademy\brest\hw_10_12\task4_map\productes" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.itacademy.brest.Test" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.itacademy.brest.hw_10_12.Classes_and_interfaces.drawable" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itacademy.brest.Tasks_book_JC_2022_classes.ATM.review" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d32364b4-85f7-4498-a796-c2c32e9f565f" name="Changes" comment="" />
+      <created>1698081556899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698081556899</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Test Commit">
+      <option name="closed" value="true" />
+      <created>1698091346797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698091346797</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit_1">
+      <option name="closed" value="true" />
+      <created>1698159362123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698159362123</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1698172401673</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698172401673</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit_3">
+      <option name="closed" value="true" />
+      <created>1698245528864</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698245528864</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit_4">
+      <option name="closed" value="true" />
+      <created>1698326380589</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698326380589</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit_5">
+      <option name="closed" value="true" />
+      <created>1698339506551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698339506551</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Commit_6">
+      <option name="closed" value="true" />
+      <created>1698692247239</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698692247239</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Commit_HW17">
+      <option name="closed" value="true" />
+      <created>1701250081219</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701250081219</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test Commit" />
+    <MESSAGE value="Commit_1" />
+    <MESSAGE value="init" />
+    <MESSAGE value="Commit_3" />
+    <MESSAGE value="Commit_4" />
+    <MESSAGE value="Commit_5" />
+    <MESSAGE value="Commit_6" />
+    <MESSAGE value="Commit_HW17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit_HW17" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/Test/TestIllegalArgument.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/TestProject/test.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/TestProject/test.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/TestProject/test.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/TestProject/test.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/TestProject/NoPermissionsException.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/TestProject/Head.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/hw17/accountClasses/DepositAccount.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/Test/TestIllegalArgument.java</url>
+          <line>4</line>
+          <properties class="com.itacademy.brest.Test.TestIllegalArgument" method="waitPositiveNumber">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/tasksCollections/Task1.java</url>
+          <line>8</line>
+          <properties class="com.itacademy.brest.tasksCollections.Task1" method="compare">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/tasksCollections/Task2.java</url>
+          <line>28</line>
+          <properties class="com.itacademy.brest.tasksCollections.Task2" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/tasksCollections/Task2.java</url>
+          <line>22</line>
+          <properties class="com.itacademy.brest.tasksCollections.Task2" method="createListOfLists">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/tasksCollections/Task2.java</url>
+          <line>9</line>
+          <properties class="com.itacademy.brest.tasksCollections.Task2" method="createBigList">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/hw17/accountClasses/AccountManager.java</url>
+          <line>66</line>
+          <properties class="com.itacademy.brest.hw17.accountClasses.AccountManager">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/itacademy/brest/hw17/accountClasses/DepositAccount.java</url>
+          <line>17</line>
+          <properties class="com.itacademy.brest.hw17.accountClasses.DepositAccount" method="replenishBalance">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
