@@ -1,4 +1,4 @@
-package com.itacademy.brest.hw17;
+package com.itacademy.brest.hw17.trasferOperations;
 
 import com.itacademy.brest.hw17.accountClasses.AccountType;
 import com.itacademy.brest.hw17.accountClasses.CurrencyAccount;

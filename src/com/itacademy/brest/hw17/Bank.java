@@ -16,14 +16,14 @@ public class Bank {
 
     private String name;
     private List<Client> clients;
-    private Map<Client, List<Account>> accountsDataBase = new HashMap<>();
-
+    private Map<Client, List<Account>> accountsDataBase;
     private AccountManager accountManager;
 
-    public Bank(String name, List<Client> clients, AccountManager accountManager) {
+    public Bank(String name) {
         this.name = name;
-        this.clients = clients;
-        this.accountManager = accountManager;
+        this.accountManager = new AccountManager();
+        this.clients = new ArrayList<>();
+        this.accountsDataBase = new HashMap<>();
     }
 
     public String getName() {
@@ -60,8 +60,8 @@ public class Bank {
     }
 
     private void isClientExist(Client client) {
-        if (!accountsDataBase.containsKey(client)){
-            ClientNotFoundException e = new ClientNotFoundException ("/client not added to bank");
+        if (!accountsDataBase.containsKey(client)) {
+            ClientNotFoundException e = new ClientNotFoundException("/client not added to bank");
             e.printStackTrace();
         }
     }
@@ -72,25 +72,27 @@ public class Bank {
                 findFirst().orElseThrow(() -> new AccountNotFoundException(accountType + " not exist"));
     }
 
-    public void createAccount(Account account){
-        isClientExist(account.getClient());
+    public void createAccount(int accountNumber, Client client, AccountType accountType) {
+        isClientExist(client);
 
-        boolean isAccountExist = accountsDataBase.get(account.getClient()).
+        boolean isAccountExist = accountsDataBase.get(client).
                 stream().
-                anyMatch(account1 -> account1.getAccountType().equals(account.getAccountType()));
+                anyMatch(account1 -> account1.getAccountType().equals(accountType));
 
-        if (isAccountExist){
-            BankException e = new BankException(account.getAccountType() + " exist");
+        if (isAccountExist) {
+            BankException e = new BankException(accountType + " exist");
             e.printStackTrace();
         }
 
+        Account account = AccountFactory.createAccount(accountNumber, client, accountType);
+
         accountManager.createAccount(account);
-        accountsDataBase.get(account.getClient()).add(account);
+        accountsDataBase.get(client).add(account);
     }
 
     public void deleteAccount(Client client, AccountType accountType) {
-       isClientExist(client);
-       Account removeAccount = findAccountByAccountType(client, accountType);
+        isClientExist(client);
+        Account removeAccount = findAccountByAccountType(client, accountType);
 
         accountManager.deleteAccount(client, accountType);
         accountsDataBase.get(client).remove(removeAccount);
@@ -140,8 +142,8 @@ public class Bank {
         isClientExist(client);
         findAccountByAccountType(client, CREDIT_ACCOUNT);
 
-            CreditAccount creditAccount = (CreditAccount) findAccountByAccountType(client, CREDIT_ACCOUNT);
-            creditAccount.takeCredit(amount);
+        CreditAccount creditAccount = (CreditAccount) findAccountByAccountType(client, CREDIT_ACCOUNT);
+        creditAccount.takeCredit(amount);
     }
 
     public void getBankBalance() {

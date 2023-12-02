@@ -1,8 +1,7 @@
 package com.itacademy.brest.hw17.accountClasses;
 
 import com.itacademy.brest.hw17.Client;
-import com.itacademy.brest.hw17.Transferable;
-import com.itacademy.brest.hw17.accountClasses.Account;
+import com.itacademy.brest.hw17.trasferOperations.Transferable;
 import com.itacademy.brest.hw17.exception.AccountException;
 
 public class CurrencyAccount extends Account implements Transferable {

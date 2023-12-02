@@ -45,15 +45,13 @@ public class AccountManager {
         createPath(account.getClient());
         createAccountFileIFAbsent();
 
-        try {
-            if (!findAccount(account.getAccountType())) {
-                addAccount(account);
-            }
-        } catch (BankException e) {
+        if (!findAccount(account.getAccountType())) {
+            addAccount(account);
+        } else {
             throw new BankException(account.getAccountType() + " exist");
         }
-    }
 
+}
     private void createAccountFileIFAbsent() {
 
         InputStream account = null;

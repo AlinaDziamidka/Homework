@@ -6,15 +6,15 @@ import java.util.ArrayList;
 
 public class test {
     public static void main(String[] args) {
-        Bank bank = new Bank("A", new ArrayList<>(), new AccountManager());
+        Bank bank = new Bank("A");
 
         Client client = new Client("A", "B");
         bank.addClient(client);
 
-        bank.createAccount(new CreditAccount(12, client, AccountType.CREDIT_ACCOUNT));
-        bank.createAccount(new CurrencyAccount(123, client, AccountType.CURRENCY_ACCOUNT));
-        bank.createAccount(new CurrentAccount(1234, client, AccountType.CURRENT_ACCOUNT));
-        bank.createAccount(new DepositAccount(12345, client, AccountType.DEPOSIT_ACCOUNT, 1000));
+        bank.createAccount(12, client, AccountType.CREDIT_ACCOUNT);
+        bank.createAccount(123, client, AccountType.CURRENCY_ACCOUNT);
+        bank.createAccount(1234, client, AccountType.CURRENT_ACCOUNT);
+        bank.createAccount(12345, client, AccountType.DEPOSIT_ACCOUNT);
 
 
         bank.takeCredit(client, 1100);
@@ -33,7 +33,7 @@ public class test {
 //        bank.transferBetweenAccounts(client, client, AccountType.DEPOSIT_ACCOUNT, AccountType.CURRENT_ACCOUNT, 400);
 //        bank.transferBetweenAccounts(client, client, AccountType.CURRENCY_ACCOUNT, AccountType.CURRENT_ACCOUNT, 800);
 //        bank.transferBetweenAccounts(client, client, AccountType.CREDIT_ACCOUNT, AccountType.CURRENT_ACCOUNT, 800);
-        bank.transferBetweenAccounts(client, client, AccountType.CURRENT_ACCOUNT, AccountType.DEPOSIT_ACCOUNT, 600);
+//        bank.transferBetweenAccounts(client, client, AccountType.CURRENT_ACCOUNT, AccountType.DEPOSIT_ACCOUNT, 600);
 //        bank.transferBetweenAccounts(client, client, AccountType.CURRENCY_ACCOUNT, AccountType.CREDIT_ACCOUNT, 600);
 
 
@@ -44,9 +44,9 @@ public class test {
 
 //        bank.getBankBalance();
 
-//        bank.deleteAccount(client, AccountType.CURRENT_ACCOUNT);
-//        bank.deleteAccount(client, AccountType.CREDIT_ACCOUNT);
-//        bank.deleteAccount(client, AccountType.CURRENCY_ACCOUNT);
+        bank.deleteAccount(client, AccountType.CURRENT_ACCOUNT);
+        bank.deleteAccount(client, AccountType.CREDIT_ACCOUNT);
+        bank.deleteAccount(client, AccountType.CURRENCY_ACCOUNT);
 //        bank.deleteAccount(client, AccountType.DEPOSIT_ACCOUNT);
 
     }

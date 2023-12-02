@@ -1,17 +1,16 @@
 package com.itacademy.brest.hw17.accountClasses;
 
 import com.itacademy.brest.hw17.Client;
-import com.itacademy.brest.hw17.Transferable;
-import com.itacademy.brest.hw17.accountClasses.Account;
+import com.itacademy.brest.hw17.trasferOperations.Transferable;
 import com.itacademy.brest.hw17.exception.BankException;
 import com.itacademy.brest.hw17.exception.TransferException;
 
 public class DepositAccount extends Account implements Transferable {
     private double maxDeposit;
 
-    public DepositAccount(int accountNumber, Client client, AccountType accountType, double maxDeposit) {
+    public DepositAccount(int accountNumber, Client client, AccountType accountType) {
         super(accountNumber, client, accountType);
-        this.maxDeposit = maxDeposit;
+        this.maxDeposit = 1000;
     }
 
     @Override
